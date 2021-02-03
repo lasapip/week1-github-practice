@@ -8,3 +8,8 @@ Welcome to the Introduction to GitHub Competition! You have been tasked with loc
 The team has identified some information about the issue. This information is listed in issue #2 on this repository (repo).
 
 Locate the issue and send the flag to a PIP captain via Discord. If you're the first to find it, you'll win a prize!
+
+---
+
+#### Branch-specific info:
+This branch is for fixing issue #2

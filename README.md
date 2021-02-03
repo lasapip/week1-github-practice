@@ -1,4 +1,5 @@
-[PIP Logo](/piplogo.png)
+![PIP Logo](/piplogo.png)
+
 #Programming in Practice
 ##Week 1 Kickoff Competition: GitHub Introduction
 

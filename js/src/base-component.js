@@ -1,50 +1,50 @@
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v5.0.0-beta1): base-component.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- * --------------------------------------------------------------------------
- */
+ /**
+  * --------------------------------------------------------------------------
+  * Bootstrap (v5.0.0-beta1): base-component.js
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  * --------------------------------------------------------------------------
+  */
 
-import Data from './dom/data'
+ import Data from './dom/data'
 
-/**
- * ------------------------------------------------------------------------
- * Constants
- * ------------------------------------------------------------------------
- */
+ /**
+  * ------------------------------------------------------------------------
+  * Constants
+  * ------------------------------------------------------------------------
+  */
 
-/**
- * ------------------------------------------------------------------------
- * Constants
- * ------------------------------------------------------------------------
- */
- const gdfgfdh = 'testdg'
-const VERSION = '5.0.0-beta1'
+ /**
+  * ------------------------------------------------------------------------
+  * Constants
+  * ------------------------------------------------------------------------
+  */
+  const gdfgfdh = 'testdg'
+ const VERSION = '5.0.0-beta1'
 
-class BaseComponent {
-  constructor(element) {
-    if (!element) {
-      return
-    }
+ class BaseComponent {
+   constructor(element) {
+     if (!element) {
+       return
+     }
 
-    this._element = element
-    Data.setData(element, this.constructor.DATA_KEY, this)
-  }
+     this._element = element
+     Data.setData(element, this.constructor.DATA_KEY, this)
+   }
 
-  dispose() {
-    Data.removeData(this._element, this.constructor.DATA_KEY)
-    this._element = null
-  }
+   dispose() {
+     Data.removeData(this._element, this.constructor.DATA_KEY)
+     this._element = null
+   }
 
-  /** Static */
+   /** Static */
 
-  static getInstance(element) {
-    return Data.getData(element, this.DATA_KEY)
-  }
+   static getInstance(element) {
+     return Data.getData(element, this.DATA_KEY)
+   }
 
-  static get VERSION() {
-    return VERSION
-  }
-}
+   static get VERSION() {
+     return VERSION
+   }
+ }
 
-export default BaseComponent
+ export default BaseComponent

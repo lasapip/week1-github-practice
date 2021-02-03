@@ -124,6 +124,11 @@ const TRIGGER_MANUAL = 'manual'
  * Class Definition
  * ------------------------------------------------------------------------
  */
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
 
 class Tooltip extends BaseComponent {
   constructor(element, config) {
@@ -698,6 +703,11 @@ class Tooltip extends BaseComponent {
       ...dataAttributes,
       ...(typeof config === 'object' && config ? config : {})
     }
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
 
     if (typeof config.delay === 'number') {
       config.delay = {
@@ -783,10 +793,15 @@ class Tooltip extends BaseComponent {
     })
   }
 }
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
 
 /**
  * ------------------------------------------------------------------------
- * jQuery
+ * jQuery (bad?)
  * ------------------------------------------------------------------------
  * add .Tooltip to jQuery only if jQuery is present
  */

@@ -2,7 +2,9 @@
   display: flex;
   @include list-unstyled();
 }
-
+// this isn't a bug
+// it's just a comment
+// goodbye
 .page-link {
   position: relative;
   display: block;
@@ -51,6 +53,7 @@
 
 
 //
+// Sizing
 // Sizing
 //
 @include pagination-size($pagination-padding-y, $pagination-padding-x, null, $pagination-border-radius);

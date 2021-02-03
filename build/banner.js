@@ -10,5 +10,9 @@ function getBanner(pluginFilename) {
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */`
 }
-
+/**
+ * ------------------------------------------------------------------------
+ * hello
+ * ------------------------------------------------------------------------
+ */
 module.exports = getBanner

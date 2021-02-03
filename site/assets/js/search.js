@@ -1,5 +1,6 @@
 // NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
 // IT'S ALL JUST JUNK FOR OUR DOCS!
+//
 // ++++++++++++++++++++++++++++++++++++++++++
 
 (function () {
@@ -48,6 +49,7 @@
       })
     },
     // Set debug to `true` if you want to inspect the dropdown
+	//
     debug: false
   })
 })()

@@ -12,6 +12,7 @@ import { getjQuery } from '../util/index'
  * Constants
  * ------------------------------------------------------------------------
  */
+ //
 
 const namespaceRegex = /[^.]*(?=\..*)\.|.*/
 const stripNameRegex = /\..*/
@@ -283,7 +284,7 @@ const EventHandler = {
     let evt = null
 
     if (inNamespace && $) {
-      jQueryEvent = $.Event(event, args)
+      jQueryEvent = $.Event(event, args) //hi
 
       $(element).trigger(jQueryEvent)
       bubbles = !jQueryEvent.isPropagationStopped()

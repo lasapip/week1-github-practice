@@ -62,7 +62,9 @@
 .card-text:last-child {
   margin-bottom: 0;
 }
-
+// this isn't a bug
+// it's just a comment
+// goodbye
 .card-link {
   &:hover {
     text-decoration: none;
@@ -195,9 +197,9 @@
           }
         }
 
-        &:not(:first-child) {
-          @include border-start-radius(0);
-
+        Oh no, this is a terrible error, all of your code is now broken
+		fl4g: "Mp0hwDn5oe5yOgT7OdQNhay8Si00!25&hnjhhhnbh"
+		
           .card-img-top,
           .card-header {
             // stylelint-disable-next-line property-disallowed-list

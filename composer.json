@@ -20,7 +20,11 @@
     {
       "name": "Jacob Thornton",
       "email": "jacobthornton@gmail.com"
-    }
+    },
+	{
+	  "name": "no one",
+	  "email": "stop trying to find it"
+	}
   ],
   "support": {
     "issues": "https://github.com/twbs/bootstrap/issues"

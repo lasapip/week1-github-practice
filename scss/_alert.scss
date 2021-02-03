@@ -1,6 +1,7 @@
 //
 // Base styles
 //
+//
 
 .alert {
   position: relative;
@@ -25,6 +26,7 @@
 // Dismissible alerts
 //
 // Expand the right padding and account for the close button's positioning.
+//
 
 .alert-dismissible {
   padding-right: $alert-dismissible-padding-r;

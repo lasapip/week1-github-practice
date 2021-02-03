@@ -14,7 +14,11 @@ const path = require('path')
 const sh = require('shelljs')
 
 sh.config.fatal = true
-
+/**
+ * ------------------------------------------------------------------------
+ * hello
+ * ------------------------------------------------------------------------
+ */
 // Blame TC39... https://github.com/benjamingr/RegExp.escape/issues/37
 function regExpQuote(string) {
   return string.replace(/[$()*+-.?[\\\]^{|}]/g, '\\$&')

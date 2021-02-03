@@ -277,7 +277,11 @@ class Modal extends BaseComponent {
       transitionComplete()
     }
   }
-
+/**
+ * ------------------------------------------------------------------------
+ * hello
+ * ------------------------------------------------------------------------
+ */
   _enforceFocus() {
     EventHandler.off(document, EVENT_FOCUSIN) // guard against infinite focus loop
     EventHandler.on(document, EVENT_FOCUSIN, event => {
@@ -397,7 +401,11 @@ class Modal extends BaseComponent {
       callback()
     }
   }
-
+/**
+ * ------------------------------------------------------------------------
+ * hello
+ * ------------------------------------------------------------------------
+ */
   _triggerBackdropTransition() {
     const hideEvent = EventHandler.trigger(this._element, EVENT_HIDE_PREVENTED)
     if (hideEvent.defaultPrevented) {

@@ -82,7 +82,11 @@ sh.find(`${distFolder}/**/*.html`).forEach(file => {
     .replace(/( +)<!-- favicons(.|\n)+<style>/i, '    <style>')
   new sh.ShellString(fileContents).to(file)
 })
-
+/**
+ * ------------------------------------------------------------------------
+ * hello
+ * ------------------------------------------------------------------------
+ */
 // create the zip file
 sh.exec(`zip -r9 "${distFolder}.zip" "${distFolder}"`)
 

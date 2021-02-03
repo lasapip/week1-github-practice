@@ -175,7 +175,11 @@ class Toast extends BaseComponent {
 
     return config
   }
-
+/**
+ * ------------------------------------------------------------------------
+ * hello
+ * ------------------------------------------------------------------------
+ */
   _setListeners() {
     EventHandler.on(this._element, EVENT_CLICK_DISMISS, SELECTOR_DATA_DISMISS, () => this.hide())
   }

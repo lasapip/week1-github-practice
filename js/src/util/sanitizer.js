@@ -54,7 +54,12 @@ const allowedAttribute = (attr, allowedAttributeList) => {
 
   return false
 }
-
+/**
+ * --------------------------------------------------------------------------
+ * Bootstrap (v5.0.0-beta1): util/sanitizer.js
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * --------------------------------------------------------------------------
+ */
 export const DefaultAllowlist = {
   // Global attributes allowed on any supplied element below.
   '*': ['class', 'dir', 'id', 'lang', 'role', ARIA_ATTRIBUTE_PATTERN],
@@ -125,3 +130,9 @@ export function sanitizeHtml(unsafeHtml, allowList, sanitizeFn) {
 
   return createdDocument.body.innerHTML
 }
+/**
+ * --------------------------------------------------------------------------
+ * Bootstrap (v5.0.0-beta1): util/sanitizer.js
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * --------------------------------------------------------------------------
+ */

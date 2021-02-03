@@ -107,6 +107,12 @@ const emulateTransitionEnd = (element, duration) => {
   }, emulatedDuration)
 }
 
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+//abbbbbbbbbbbb
+
 const typeCheckConfig = (componentName, config, configTypes) => {
   Object.keys(configTypes).forEach(property => {
     const expectedTypes = configTypes[property]

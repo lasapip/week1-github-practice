@@ -1,7 +1,7 @@
 ![PIP Logo](/piplogo.png)
 
-#Programming in Practice
-##Week 1 Kickoff Competition: GitHub Introduction
+# Programming in Practice
+## Week 1 Kickoff Competition: GitHub Introduction
 
 Welcome to the Introduction to GitHub Competition! You have been tasked with locating a pesky bug in Bootstrap's latest code!
 
